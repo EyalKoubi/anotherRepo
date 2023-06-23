@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./Tests/*.myTests.js",
+    "start": "node dist/crud.js",
+    "build": "cp dist/crud.js src/index.js && react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "env-var": "^7.3.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
